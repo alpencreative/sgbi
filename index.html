@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>S.G. Banks, Inc.</title>
+	<meta name="description" content="">
+
+	<link rel="icon" href="images/sgbi.ico">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/classie.js"></script>
+	<script>
+	    function init() {
+	        window.addEventListener('scroll', function(e){
+	            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+	                shrinkOn = 100,
+	                header = document.querySelector("header");
+	                nav = document.querySelector("nav");
+	            if (distanceY > shrinkOn) {
+	                classie.add(header,"smaller")
+	                classie.add(nav,"smaller");
+	            } else {
+	                if (classie.has(header,"smaller")) {
+	                    classie.remove(header,"smaller");
+	                    classie.remove(nav,"smaller");
+	                }
+	            }
+	        });
+	    }
+	    window.onload = init();
+	</script>
+</head>
+
+<body>
+	<header class="clearfix">
+		<label class="mobile_toggle" for="toggle">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</label>
+		<input type="checkbox" id="toggle">
+
+		<img src="images/sgbi_headerlogo.png" id="headerlogo">
+		<h1 id="headerslogan">Specialty Construction Services</h1>
+		<nav class="clearfix">
+			<a class="navlinks" href="#contact">Contact</a>
+			<a class="navlinks" href="#about">About</a>		
+			<a class="navlinks" href="#ourwork">Our Work</a>
+		</nav>
+	</header>
+
+	<div id="main">
+		<div id="mainh1">
+			<h2>S.G. Banks, Inc.</h2>
+			<p>Offering specialty construction services in the greater Bay Area.</p>
+			<p class="italic"> Safe. Reliable. Ready.</p>
+		</div>
+	</div>
+	<div id="ourwork">
+		<div class="h1container">
+			<h1>OUR WORK</h1>
+		</div>
+		<div id="workdescription">
+			<div class="workblocks">
+				<p>This is a good place to describe the work you do, how you do it, the team you work with, etc. It's not totally necessary but might be a good idea.</p>
+			</div>
+			<div class="workblocks">
+				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+
+		<div class="banner-container">
+			<div class="banner-slider">
+			  	<div id="slide1" class="slidecontent"><img src="images/slide1.jpg"></div>
+			  	<div id="slide2" class="slidecontent"><img src="images/slide2.jpg"></div>
+			  	<div id="slide3" class="slidecontent"><img src="images/slide3.jpg"></div>
+			  	<div id="slide4" class="slidecontent"><img src="images/slide4.jpg"></div>
+			  	<div id="slide5" class="slidecontent"><img src="images/slide5.jpg"></div>
+			</div>
+		</div>
+	</div>
+	<div id="about">
+		<div class="h1container">
+			<h1>S.G.BANKS, INC.</h1>
+		</div>
+		<div id="aboutblocks">
+			<div class="shapeblocks">
+				<h3>OUR LOCATION</h3>
+				<div class="subblock">
+					<p>San Jose, California, United States</p>
+				</div>
+			</div>
+			<div class="shapeblocks">
+				<h3>CONTACT US</h3>
+				<div class="subblock">
+					<p>(562) 685 - 5388</p>
+					<p>s@sgbi.biz</p>
+				</div>
+			</div>
+			<div class="shapeblocks">
+				<h3>LICENSE NUMBERS</h3>
+				<div class="subblock">
+					<p>CSLB # 1008231</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="contact">
+		<div class="h1container">
+			<h1>CONTACT US</h1>
+		</div>
+		<div id="contactsection">
+			<div id="contactform">
+				<form name="htmlform" method="post" action="html_form_send.php">
+					<table>
+						<!-- </tr> -->
+						<tr>
+						 	<td valign="top">
+						  		<label for="first_name">Name *</label>
+						 	</td>
+						 	<td valign="top">
+								<input  type="text" name="first_name" maxlength="50" size="30">
+							</td>
+						</tr>
+
+						<tr>
+							<td valign="top">
+						 		<label for="email">Email *</label>
+						 	</td>
+						 	<td valign="top">
+						 		<input  type="text" name="email" maxlength="80" size="30">
+						 	</td>
+						</tr>
+						<tr>
+						 	<td valign="top">
+						  		<label for="comments">Message *</label>
+						 	</td>
+						 	<td valign="top">
+						 		<textarea  name="comments" maxlength="1000" cols="30" rows="3"></textarea>
+						 	</td>
+						</tr>
+						<tr>
+						 	<td colspan="2" style="text-align:center">
+								<p>* Required field</p>
+						  		<input type="submit" value="Submit">
+						 	</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<h3>S.G. Banks Inc. &copy;2107 All Rights Reserved</h3>
+	</footer>
+
+	<script type="text/javascript" src="jquery/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="jquery/jquery-migrate-1.4.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $('.banner-slider').slick({
+			  dots: true,
+			  padding: '10px',
+			  infinite: true,
+			  speed: 300,
+			  slidesToShow: 1,
+			  centerMode: true,
+			  variableWidth: true,
+			  responsive: [
+			    {
+			      breakpoint: 768,
+			      settings: {
+			        arrows: false,
+			        centerMode: true,
+			        centerPadding: '40px',
+			        slidesToShow: 3
+			      }
+			    },
+			    {
+			      breakpoint: 480,
+			      settings: {
+			        arrows: false,
+			        centerMode: true,
+			        centerPadding: '40px',
+			        slidesToShow: 1
+			      }
+			    }
+			  ]
+			});
+		});
+		</script>
+</body>
