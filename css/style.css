@@ -17,6 +17,12 @@ body {
 	font-smoothing: antialiased;
 }
 
+a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #444;
+}
+
 label {
 	display: none;
 	font-family: 'Roboto', sans-serif;
@@ -101,7 +107,6 @@ h1 {
 	text-align: center;
 	color: #444;
 	margin: 3em;
-	margin-bottom: 1em;
 	padding: 10px;
 	display: inline-block;
 	width: 40%;
@@ -122,9 +127,10 @@ h2 {
 
 h3 {	
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
+	font-size: 1.3em;
 	text-align: center;
 	margin: 1em;
+	color: #444;
 }
 
 p {
@@ -132,6 +138,7 @@ p {
 	font-size: 1em;
 	line-height: 1.5em;
 	text-align: left;
+	color: #444;
 }
 
 table {
@@ -214,6 +221,9 @@ td {
 #ourwork {
 	background-color: #fff;
 }
+#ourwork .h1container h1 {
+	margin-bottom: 1em;
+}
 
 #about {
 	background-color: #fff;
@@ -256,7 +266,7 @@ td {
 }
 
 #headerslogan {
-	margin: 1em;
+	margin: 1em 1em 0 1em;
 	border-style: none;
 	width: initial;
 	padding: 0;
@@ -281,29 +291,57 @@ td {
 }
 
 #aboutblocks {
-	text-align: center;
+	background: url('../images/aboutbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 600px;
 }
 
 .shapeblocks {
-	width: 20%;
-	max-width: 400px;
-	height: 300px;
-	margin: 20px;
-	background-color: #88d1f4;
-
 	display: inline-block;
+    text-align: center;
+	width: 100%;
+	padding: 170px 0;
 }
 
 .subblock {
+	width: 20%;
+	max-width: 400px;
+	max-height: 300px;
+	margin: 20px;
 	background-color: white;
-	margin: 1em;
     padding: 2em;
     height: 75%;
     overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 0 0 10px 10px;
 }
 
+.subblock h3 {
+	border-bottom: 2px solid #88d1f4;
+    padding: 0 0 10px 0;
+}
 .subblock p {
 	text-align: center;
+}
+
+.phonelink {
+	text-decoration: none;
+	color: #444;
+	display: block;
+	margin: 1em;
+
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-o-transition: 02s;
+	transition: 0.2s; 
+}
+
+.phonelink:hover {
+	color: #88d1f4;
 }
 
 .banner-container {
