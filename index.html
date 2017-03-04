@@ -4,7 +4,7 @@
 	<title>S.G. Banks, Inc.</title>
 	<meta name="description" content="">
 
-	<link rel="icon" href="images/sgbi.ico">
+	<link rel="icon" href="images/sgbicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -36,30 +36,39 @@
 
 <body>
 	<header class="clearfix">
-		<label class="mobile_toggle" for="toggle">
+		<label for="toggle">
 			<div class="line"></div>
 			<div class="line"></div>
 			<div class="line"></div>
 		</label>
 		<input type="checkbox" id="toggle">
 
-		<img src="images/sgbi_headerlogo.png" id="headerlogo">
-		<div id="headergroup" class="clearfix">
-			<h1 id="headerslogan">SPECIALTY-CONSTRUCTION SERVICES</h1>
-			<p id="headerbyline" class="italic">A California Corporation</p>
+		<div class="container">
+			<nav class="clearfix">
+				<div id="mobilelogo">
+					<img src="images/sgbi_headerlogo.png" id="smllogo">
+					<h1 id="headerslogan">SPECIALTY-CONSTRUCTION SERVICES</h1>
+					<p id="headerbyline" class="italic">A California Corporation</p>
+				</div>
+				<a class="navlinks" href="#contact">Contact</a>
+				<a class="navlinks" href="#about">About</a>		
+				<a class="navlinks" href="#ourwork">Our Work</a>
+			</nav>
+			<img src="images/sgbi_headerlogo.png" id="headerlogo">
+			<div id="headergroup" class="clearfix">
+				<h1 id="headerslogan">SPECIALTY-<br>CONSTRUCTION <br>SERVICES</h1>
+				<p id="headerbyline" class="italic">A California Corporation</p>
+			</div>
 		</div>
-		<nav class="clearfix">
-			<a class="navlinks" href="#contact">Contact</a>
-			<a class="navlinks" href="#about">About</a>		
-			<a class="navlinks" href="#ourwork">Our Work</a>
-		</nav>
 	</header>
 
 	<div id="main">
 		<div id="mainh1">
-			<h2>S. G. Banks, Inc.</h2>
-			<p>Offering specialty construction services in the greater Bay Area.</p>
-			<p class="italic"> Safe. Reliable. Ready.</p>
+			<div id="mainh2">
+				<h2>S. G. Banks, Inc.</h2>
+				<p>Offering specialty construction services in the greater Bay Area.</p>
+				<p class="italic"> Safe. Reliable. Ready.</p>
+			</div>
 		</div>
 	</div>
 	<div id="ourwork">
@@ -108,13 +117,6 @@
 					<p><i class="fa fa-address-card" aria-hidden="true"></i>  CSLB # 1008231</p>
 				</div>
 			</div>
-			<!-- 
-			<div class="shapeblocks">
-				
-
-			</div>
-			<div class="shapeblocks">
-			</div> -->
 		</div>
 	</div>
 	<div id="contact">
@@ -125,35 +127,34 @@
 			<div id="contactform">
 				<form name="htmlform" method="post" action="html_form_send.php">
 					<table>
-						<!-- </tr> -->
 						<tr>
-						 	<td valign="top">
-						  		<label for="first_name">Name *</label>
+						 	<td valign="top" class="left">
+						  		<label for="first_name" class="conwd">Name *</label>
 						 	</td>
-						 	<td valign="top">
-								<input  type="text" name="first_name" maxlength="50" size="30">
+						 	<td valign="top" class="right">
+								<input  type="text" name="first_name" class="inputbox">
 							</td>
 						</tr>
 
 						<tr>
-							<td valign="top">
-						 		<label for="email">Email *</label>
+							<td valign="top" class="left">
+						 		<label for="email" class="conwd">Email *</label>
 						 	</td>
-						 	<td valign="top">
-						 		<input  type="text" name="email" maxlength="80" size="30">
+						 	<td valign="top" class="right">
+						 		<input  type="text" name="email" class="inputbox">
 						 	</td>
 						</tr>
 						<tr>
 						 	<td valign="top">
-						  		<label for="comments">Message *</label>
+						  		<label for="comments" class="conwd">Message *</label>
 						 	</td>
 						 	<td valign="top">
-						 		<textarea  name="comments" maxlength="1000" cols="30" rows="3"></textarea>
+						 		<textarea  name="comments" maxlength="1000" class="inputbox"></textarea>
 						 	</td>
 						</tr>
 						<tr>
 						 	<td colspan="2" style="text-align:center">
-								<p>* Required field</p>
+								<p id="req">* Required field</p>
 						  		<input type="submit" value="Submit">
 						 	</td>
 						</tr>
@@ -166,6 +167,9 @@
 	<footer>
 		<h3>S. G. Banks, Inc.</h3>
 		<h3>&copy;2017 All Rights Reserved</h3>
+		<div id="footer_copyright" class="clearfix">
+			<a target="_blank" id="acwords" class="clearfix fwords" href="http://alpencreative.com/"><p class="fwords"> Website Created by<img id="aclogo" src="images/AlpenCreativeGeoLogo_Color_v2 copy 2.svg"> AlpenCreative</a></p>
+		</div>
 	</footer>
 
 	<script type="text/javascript" src="jquery/jquery-3.1.0.min.js"></script>
