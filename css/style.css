@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,500i|Roboto');
 
 *{
@@ -1030,4 +1031,1046 @@ tbody {
 	header.smaller #headerlogo {
 		height: 50px;
 	}
+=======
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,500i|Roboto');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	font-size: 18px;
+	background-color: #D6D0D0;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #444;
+}
+
+label {
+	display: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	vertical-align: middle;
+	z-index: 999;
+}
+
+form label {
+	display: inline;
+}
+
+header {
+	height: 400px;
+	background-color: #FFF;
+  	width: 100%;
+  	/*overflow: hidden;*/
+  	position: fixed;
+  	z-index: 999;
+
+  	-webkit-transition: ease-in-out 0.3s;
+  	-moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s; 
+}
+
+header.smaller {
+	height: 80px;
+}
+
+header.smaller #headerlogo {
+	margin: 0;
+	height: 150px;
+	-webkit-transition: ease-in-out 0.3s;
+  	-moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s; 
+}
+
+header.smaller #headerbyline {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0.3s, opacity 0.3s linear;
+}
+
+header.smaller #headerslogan {
+	font-size: 1.6em;
+	margin: 1em 1em 0 1em;
+}
+
+nav {
+	display: inline;
+}
+
+footer {
+	height: 80px;
+	background-color: 
+}
+
+br {
+	display: none;
+}
+
+.navlinks {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 1.6em;
+	text-decoration: none;
+	margin: 1em;
+	float: right;
+	color: #444;
+
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-o-transition: 02s;
+	transition: 0.2s; 
+}
+
+.navlinks:hover {
+	color: #88d1f4;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 3em;
+	text-align: center;
+	color: #444;
+	margin: 3em;
+	padding: 10px;
+	display: inline-block;
+	width: 40%;
+
+	border-style: solid;
+	border-width: .1em;
+	border-color: #444;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 3em;
+	color: #444;
+	text-align: left;
+	margin-bottom: .6em;
+} 
+
+h3 {	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	margin: 1em;
+	color: #444;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: left;
+	color: #444;
+}
+
+table {
+	margin: 0 auto;
+	width: 80%;
+}
+
+input {
+	font-size: 1em;
+	padding: .3em;
+	margin: .5em;
+	color: #444;
+	background-color: rgba(128, 128, 128, 0.27);
+}
+
+textarea {
+	/*height: 6em;*/
+	font-size: 1em;
+	padding: .3em;
+	margin: .5em;
+	color: #444;
+	background-color: rgba(128, 128, 128, 0.27);
+}
+
+tr {
+	width: 80%;
+}
+
+td {
+	vertical-align: middle;
+	font-family: 'Roboto', sans-serif;
+	color: #444;
+	padding: 3px;
+	font-size: 1em;
+	margin-top: 10px;
+}
+
+tbody {
+	width: 80%;
+}
+
+
+/* - - - - - Mobile Hamburger Menu - - - - - */
+.mobile_toggle {
+	display: none;
+	font-size: 1.7em;
+	vertical-align: middle;
+	z-index: 999;
+}
+#toggle {
+	display: none;
+}
+.line {
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 5px 0;
+}
+/* - - - - - - - - - - - - - - - - - - - - - */
+
+.inputbox {
+	width: 80%;
+}
+
+.h1container h1 {
+	margin: 3em auto;
+}
+
+#main {
+	background-image: url("../images/goldengate.jpg");
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100vh;
+}
+
+#mainh1 {
+	background-color: #fff;    
+	width: 40%;
+	border-style: solid;
+	border-color: #444;
+	border-width: .3em;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+
+#mainh1 p {
+	font-size: 1.3em;
+	color: #444;
+	line-height: 2em;
+}
+
+#mainh2 {
+	margin: 5% auto;
+	width: 80%;
+}
+
+#ourwork {
+	background-color: #fff;
+}
+#ourwork .h1container h1 {
+	margin-bottom: 1em;
+}
+
+#about {
+	background-color: #fff;
+}
+
+#contact {
+	background-color: #fff;
+}
+
+#contactsection {
+	background-image: url('../images/contactbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	padding: 8em 0;
+}
+
+#contactform {
+	background-color: #fff; 
+    width: 50%;
+    margin: 0 auto;   
+	padding: 2em;
+    border-radius: 10px;
+}
+
+#headerlogo {
+	height: 370px;
+	margin: 1%;
+	float: left;
+
+	-webkit-transition: ease-in-out 0.3s;
+  	-moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+}
+
+#headergroup {
+	float: left;
+}
+
+#headerslogan {
+	margin: 4em 1em 0 1em;
+	border-style: none;
+	width: initial;
+	padding: 0;
+	font-size: 2.6em;
+	font-weight: 500;
+	color: #88d1f4;
+}
+#headerbyline {
+	margin: 0 3em;
+	padding: 0;
+	font-size: 1.5em;
+	display: block;
+	visibility: visible;
+	opacity: 1;
+    color: #f7c936;
+}
+
+#req {
+	text-align: center;
+}
+
+.h1container {
+	width: 100%;
+	text-align: center;
+}
+
+#aboutblocks {
+	background: url('../images/aboutbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 600px;
+}
+
+.fwords {
+	text-decoration: none;
+    color: #444;
+	text-align: center;
+}
+
+.shapeblocks {
+	display: inline-block;
+    text-align: center;
+	width: 100%;
+	padding: 170px 0;
+}
+
+.subblock {
+	width: 20%;
+	max-width: 400px;
+	max-height: 300px;
+	margin: 20px;
+	background-color: white;
+    padding: 2em;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 0 0 10px 10px;
+}
+
+.subblock h3 {
+	border-bottom: 2px solid #88d1f4;
+    padding: 0 0 10px 0;
+}
+.subblock p {
+	text-align: center;
+}
+
+.phonelink {
+	text-decoration: none;
+	color: #444;
+	display: block;
+	margin: 1em;
+
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-o-transition: 02s;
+	transition: 0.2s; 
+}
+
+.phonelink:hover {
+	color: #88d1f4;
+}
+
+.banner-container {
+	width: 100%;
+	padding: 1% 0;
+}
+.banner-slider {
+	width: 100%;
+}
+
+.slidecontent img {
+	width: 100%;
+	padding: 10px;
+}
+
+#workdescription {
+	text-align: center;
+	margin: 2em;
+}
+
+.workblocks {
+	width: 30%;
+	max-width: 500px;
+	display: inline-block;
+	margin: 2em;
+	vertical-align: top;
+}
+
+.italic {
+	font-style: italic;
+}
+
+#mobilelogo {
+	display: none;
+}
+
+#smllogo {
+	width: 30%;
+	margin: auto;
+	display: block;
+}
+
+#footer_copyright {
+    text-align: center;
+    height: 47px;
+    clear: both;
+    color: white;
+    padding-bottom: 1%;
+}
+
+#acwords {
+	font-size: .8em;
+	padding-top: 1%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#aclogo {
+	width: 30px;
+}
+
+@media only screen and (max-width: 2100px) {
+	#mainh1 {
+		width: 50%;
+		left: 25%;
+	}
+}
+
+@media only screen and (max-width: 1900px) {
+	header {
+		height: 355px;
+	}
+	#headerlogo {
+		height: 325px;
+	}
+	#headerslogan {
+		font-size: 2.3em;
+	}
+}
+
+@media only screen and (max-width: 1700px) {
+	.subblock {
+		width: 25%;
+	}
+	#headerslogan {
+		font-size: 2em;
+	}
+	#mainh1 {
+		width: 60%;
+		left: 20%;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	#headerslogan {
+		font-size: 1.8em;
+	}
+}
+
+@media only screen and (max-width: 1500px) {
+	.navlinks {
+		font-size: 1.3em; 
+	}
+	header.smaller #headerslogan {
+		font-size: 1.3em;
+	}
+	#contactsection {
+		height: 700px;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	header {
+		height: 300px;
+	}
+	#headerlogo {
+		height: 285px;
+	}
+	#headerslogan {
+		font-size: 1.6em;
+	}
+	#mainh2 {
+		width: 88%;
+	}
+	#contactform {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 1350px) {
+	.subblock {
+		padding: 1em;
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	header {
+		height: 260px;
+	}
+	#headerlogo {
+		height: 240px;
+	}
+	#headerslogan {
+		font-size: 1.4em;
+	}
+	#headerbyline {
+		font-size: 1.2em;
+	}
+	#contactsection {
+		height: 630px;
+	}
+}
+
+@media only screen and (max-width: 1270px) {
+	#mainh1 p {
+		font-size: 1.1em;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.navlinks {
+		font-size: 1em;
+	}
+	header.smaller #headerslogan {
+		font-size: 1em;
+	}
+	header.smaller {
+		height: 50px;
+	}
+	header.smaller #headerlogo {
+		height: 100px;
+	}
+	.subblock {
+		width: 28%;
+	}
+	.h1container h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	header {
+		height: 215px;
+	}
+	.subblock h3 {
+		font-size: 1em;
+	}
+	#headerlogo {
+		height: 200px;
+	}
+	#headerslogan {
+		font-size: 1.3em;
+	}
+	#headerbyline {
+		font-size: 1.1em;
+	}
+	#mainh2 {
+		width: 92%;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+	#mainh1 p {
+		font-size: 1em;
+	}
+	#contactsection {
+		height: 600px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.h1container h1 {
+		font-size: 2em;
+	}
+	#headerslogan {
+	 	font-size: 1.1em;
+    	margin: 4em .5em 0 .5em;
+	}
+	#headerbyline {
+		font-size: 1em;
+	}
+	#mainh1 {
+		width: 70%;
+		left: 15%;
+		top: 50%;
+	}
+	#contactform {
+		width: 70%;
+	}
+	#workdescription {
+		font-size: .9em;
+	}
+	#aboutblocks {
+		height: 500px;
+	}
+} 
+
+@media only screen and (max-width: 900px) {
+	header {
+		height: 175px;
+	}
+	table {
+		width: 90%;
+	}
+	.navlinks {
+		margin: .7em;
+	}
+	header.smaller #headerslogan {
+		font-size: .7em;
+	}
+	.subblock {
+		height: 150px;
+	}
+	.subblock p {
+		font-size: .7em;
+	}
+	.subblock h3 {
+		font-size: .9em;
+	}
+	.phonelink {
+		font-size: .7em;
+	}
+	#headerlogo {
+		height: 160px;
+	}
+	#headerbyline {
+		font-size: .8em;
+	}
+	#headerslogan {
+		font-size: 1em;
+	}
+	#workdescription {
+		font-size: .8em;
+	}	
+}
+
+@media only screen and (max-width: 850px) {
+	.subblock {
+		width: 25%;
+	}
+	.subblock h3 {
+		font-size: .8em;
+	}
+	.h1container h1 {
+		font-size: 1.5em;
+	}
+	#mainh1 p {
+		font-size: .9em;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.navlinks {
+		margin: 1.5em .7em;
+		font-size: .8em;
+	}
+	header.smaller #headerslogan {
+		font-size: .8em;
+	}
+	header.smaller .navlinks {
+		margin: 1em .7em;
+	}
+	.shapeblocks { 
+		padding: 5% 0;
+	}
+	.subblock {
+		width: 50%;
+		display: block;
+		margin: 2% auto;
+	}
+	.subblock h3 {
+		font-size: 1em;
+	}
+	.subblock p {
+		font-size: 1em;
+	}
+	.phonelink {
+		font-size: 1em;
+	}
+	#headerslogan {
+		font-size: .85em;
+	}
+	#workdescription {
+		font-size: .7em;
+	}	
+	#mainh1 {
+		top: 25%;
+	}
+	#aboutblocks {
+		height: 600px;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	header {
+		height: 135px;
+	}
+	textarea {
+		width: 80%; 
+	}
+	footer h3 {
+		font-size: 1em;
+		margin: .5em;
+	}
+	td label {
+		font-size: .7em;
+	}
+	input {
+		font-size: .7em;
+   		padding: .2em; 
+	}
+	.h1container h1 {
+ 	   margin: 1.5em auto;
+	}
+	#mainh1 {
+		width: 60%;
+    	left: 20%;
+    	top: 50%;
+	}
+	#mainh1 p {
+		font-size: .7em;
+	}
+	#headerlogo {
+		height: 125px;
+	}
+	#mainh2 h2 {
+		font-size: 1.5em;
+	}
+	#req {
+		font-size: .6em;
+	}
+	#contactform {
+		padding: .1em;
+	}
+	#contactsection {
+		height: 315px;
+		padding: 2em 0;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	label {
+		display: block;
+		float: right;
+		padding: 10px 25px 10px 0;
+	}
+	nav {
+		display: none;
+		position: static;
+		clear: both;
+	}
+	header.smaller #headerslogan {
+		margin: 1.5em 1em 0 1em;
+	}
+	table {
+		width: 100%;
+	}
+	.navlinks {
+		font-size: 2em;
+		float: none;
+		display: block;
+		text-align: center;
+	}	
+	.h1container h1 {
+	    font-size: 1.5em;
+	    width: 50%;
+	}
+	#toggle:checked + .container nav {	
+		display: block;
+		background-color: white;
+	}
+	#toggle:checked + .container nav #mobilelogo {
+		display: block;
+		text-align: center;
+	}
+	#toggle:checked + .container #headerlogo {
+		display: none;
+	}
+	#toggle:checked + .container #headergroup {
+		display: none;
+	}
+	#toggle:checked + .container #headerbyline {
+		text-align: center;
+	}
+	#contactform {
+		padding: 1em 0;
+		width: 80%;
+	}
+	#workdescription {
+		font-size: .6em;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	header {
+		height: 125px;
+	}
+	.subblock {
+	    width: 70%;
+	   	margin: 3% auto;
+	}
+	#headerlogo {
+		height: 115px;
+	}
+	#mainh1 {
+		top: 45%;
+	}
+	#mainh1 p {
+		font-size: .8em;
+	}
+	#workdescription {
+		font-size: .8em;
+	}
+	#mainh2 h2 {
+		font-size: 2em;
+	}
+	#mainh1 p {
+		font-size: .7em;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#contactsection {
+		height: 600px;
+		padding: 7em 0;
+	}
+	#mainh1 {
+		width: 70%;
+		left: 15%;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	header {
+		height: 115px;
+	}
+	footer h3 {
+		font-size: .7em;
+	}
+	.h1container h1 {
+		margin: 1em auto;
+	}
+	#headerlogo {
+		height: 100px;
+	}
+	#mainh1 {
+		width: 70%;
+		left: 15%;
+	}
+	#mainh2 {
+		margin: 2% auto;
+	}
+	#mainh2 h2 {
+		font-size: 1.5em;
+	}
+	#contactform {
+		padding: .5em 0;
+	}
+	#acwords {
+		font-size: .5em;
+	}
+} 
+
+@media only screen and (max-width: 550px) {
+	.conwd {
+		padding: 10px 0;
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	#headerslogan {
+		margin: 3em .5em 0 .5em;
+	}
+	header.smaller #headerslogan {
+    	font-size: .7em;
+	}
+	.h1container h1 {
+		width: 60%;
+	}
+	#workdescription {
+		font-size: .7em;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	header.smaller #headerslogan {
+    	margin: 2.5em 1em 0 1.7em;
+    	font-size: .5em;
+	}
+	#contactform { 
+		width: 90%;
+	}
+	#headerbyline {
+		font-size: .6em;
+	}
+	#headerslogan {
+		font-size: .65em;
+		margin: 4em .5em 0 .5em;
+	}
+	#mainh1 {
+		top: 50%;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.h1container h1 {
+		width: 55%;
+		font-size: 1.3em;
+	}
+	#mainh1 {
+    	width: 70%;
+  		left: 15%;
+  		top: 40%;
+	}
+	#mainh2 h2 {
+		font-size: 1.7em;
+	}
+	#contactsection {
+		height: 500px;
+		padding: 5em 0;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	br {
+		display: block;
+	}
+	.h1container h1 {
+		font-size: 1em;
+	}
+	.subblock {
+		margin: 5% auto;
+	}
+	.subblock p {
+		font-size: .8em;
+	}
+	.phonelink {
+		font-size: .8em;
+	}
+	#headerslogan {
+		font-size: 1em;
+		text-align: left;
+		margin: 2em .5em 0 .5em;
+	}
+	header.smaller br {
+		display: none;
+	}
+	header.smaller #headerlogo {
+		height: 75px;
+	}
+	#workdescription {
+		font-size: .6em;
+	}
+	#contactsection {
+		height: 430px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	header.smaller #headerslogan {
+    	margin: 3.5em 1em 0 1.7em;
+    	font-size: .4em;
+	}
+	header {
+		height: 145px;
+	}
+	.subblock h3 {
+		font-size: .8em;
+	}
+	#headerlogo {
+		height: 135px;
+	}
+	#headerslogan {
+		font-size: 1em;
+		margin: 3em .5em 0 .5em;
+	}
+	#contactsection {
+		height: 435px;
+	}
+} 
+
+@media only screen and (max-width: 350px) {
+	#headerslogan {
+		font-size: 1em;
+		margin: 1em .5em 0 .5em;
+	}
+}
+
+
+@media only screen and (max-width: 330px) {
+	header {
+		height:  135px;
+	}
+	.left {
+		width: 30%;
+	}
+	.right {
+		width: 60%;
+	}
+	#mainh1 {
+		width: 80%;
+		left: 10%;
+	}
+	#mainh2 h2 {
+		font-size: 1.5em;
+	}
+	#contactsection {
+		height: 365px;
+		padding: 3em 0;
+	}
+	#headerlogo {
+		height: 115px;
+	}
+	#headerslogan {
+		font-size: .8em;
+	}
+}
+
+@media only screen and (max-width: 260px) {
+	header.smaller #headerlogo {
+		height: 50px;
+	}
+>>>>>>> origin/master
 }
